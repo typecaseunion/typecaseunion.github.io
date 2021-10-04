@@ -17,4 +17,3 @@ let test = fun x ->
     else if typeof x is "string" then charcode x
     else if typeof x is "boolean" then int_of_bool x
     else 0
-
