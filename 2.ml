@@ -1,4 +1,4 @@
-(* Code 2 from the submission *)
+(* Code 2 from the paper *)
 
 type Falsy = False | "" | 0
 type Truthy = ~Falsy
@@ -13,3 +13,7 @@ let and_ = fun x -> fun y ->
 
 let or_ = fun x -> fun y ->
   not_ (and_ (not_ x) (not_ y))
+
+
+
+
